@@ -1,0 +1,16 @@
+# mutation {
+#   createOrganization(input: {
+#     orgName: "Goa University",
+#     orgAddress: "Panjim"
+#     phone: 2414242
+#   }){
+#     id
+#     orgName
+#   }
+# }
+
+query {
+  getOrganization(id: "cf04a1a2-5906-4bb7-8712-3902aa907061"){
+    orgName
+  }
+}
